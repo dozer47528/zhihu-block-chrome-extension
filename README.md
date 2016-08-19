@@ -18,5 +18,5 @@ Github： [https://github.com/dozer47528/zhihu-block-chrome-extension](https://g
 
 ### 开发计划
 
-[ ] 加入屏蔽数量统计
-[ ] 加入开关，一键启用/禁用
+- [ ] 加入屏蔽数量统计
+- [ ] 加入开关，一键启用/禁用
