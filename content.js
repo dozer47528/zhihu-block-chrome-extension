@@ -9,12 +9,12 @@
             $.each(blockedUserLinks, function (index, item) {
                 var links = [item, "http://www.zhihu.com" + item, "http://www.zhihu.com" + item];
                 $.each(links, function (index, link) {
-                    $('div.zm-item-answer:has(a.author-link[href="' + link + '"])').remove();
+                    $('div.zm-item-answer:has(a.author-link[href="' + link + '"])').hide();
                 });
             });
 
             $.each(blockedUserNames, function (index, item) {
-                $('div.comment-app-holder div[aria-label="' + item + "的评论" + '"]').remove();
+                $('div.comment-app-holder div[aria-label="' + item + "的评论" + '"]').hide();
             });
 
         };
