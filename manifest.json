@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "知乎用户屏蔽插件",
   "description": "知乎默认屏蔽用户后无法屏蔽该用户的回答和评论。该插件会自动读取你的屏蔽列表，并屏蔽他们的所有回答和留言。眼不见为净！",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
