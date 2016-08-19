@@ -13,3 +13,10 @@ Chrome Web Store: [https://chrome.google.com/webstore/detail/知乎用户屏蔽�
 Github： [https://github.com/dozer47528/zhihu-block-chrome-extension](https://github.com/dozer47528/zhihu-block-chrome-extension)
 
 免翻墙下载地址：[https://github.com/dozer47528/zhihu-block-chrome-extension/releases](https://github.com/dozer47528/zhihu-block-chrome-extension/releases)
+
+&nbsp;
+
+### 开发计划
+
+[ ] 加入屏蔽数量统计
+[ ] 加入开关，一键启用/禁用
