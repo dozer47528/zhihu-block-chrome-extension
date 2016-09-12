@@ -39,9 +39,13 @@
         });
     };
 
-    var injectedScript = document.createElement('script');
-    injectedScript.type = 'text/javascript';
-    injectedScript.text = '(' + main + ')("");';
-    (document.body || document.head).appendChild(injectedScript);
+    chrome.storage.local.get("disabled", function (data) {
+        if (!data || !data["disabled"]) {
+            var injectedScript = document.createElement('script');
+            injectedScript.type = 'text/javascript';
+            injectedScript.text = '(' + main + ')("");';
+            (document.body || document.head).appendChild(injectedScript);
+        }
+    });
 })();
 
